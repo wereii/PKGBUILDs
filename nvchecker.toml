@@ -1,0 +1,17 @@
+[__config__]
+user_agent = "nvchecker@https://github.com/wereii/PKGBUILDs"
+oldver = "old_ver.json"
+newver = "new_ver.json"
+
+
+[asco]
+source = "regex"
+url = "http://asco.sourceforge.net/downloads.html"
+regex = '<a href="download_latest\.html">ASCO-(.*)<\/a>'
+
+[simulide]
+source = "regex"
+url = "https://www.simulide.com/p/downloads.html"
+regex = 'web\/SimulIDE_.*\/SimulIDE_(.*)_Sources\.tar\.gz"'
+from_pattern = "-"
+to_pattern = "_"
