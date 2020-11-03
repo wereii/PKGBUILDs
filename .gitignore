@@ -1,0 +1,26 @@
+# Stolen from https://github.com/orhun/PKGBUILDs/blob/a6a15d8f780160e90272a8902be64a3834d67c06/.gitignore
+
+# package src/pkg archives, downloaded sources
+*.tar*
+*.tgz
+*.zip
+*-LICENSE*
+*-README*
+
+# signed sources
+*.asc
+*.sig
+
+# log files from makepkg --log (or extra-x86_64-build)
+*.log
+
+# subfolders, e.g. source or built package trees, vcs
+*/**/
+
+# backup files
+*~
+*.bak
+
+# nvchecker files
+old_ver.json
+new_ver.json
