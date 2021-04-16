@@ -1,6 +1,7 @@
 # Maintainer: wereii <wereii+aur@wereii.cz>
 # Contributor: Vladimir Cerny <blackvladimir@gmail.com>
 
+
 pkgname=asco
 pkgver=0.4.10
 pkgrel=2
